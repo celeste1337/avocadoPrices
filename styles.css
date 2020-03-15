@@ -1,0 +1,32 @@
+:root {
+    --body-font: 'Montserrat', sans-serif;
+    --heading-font: 'Coustard', serif;
+    --bg-color: #cdeabc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: black;
+}
+
+p {
+    font-family: var(--body-font);
+}
+
+.content {
+    border: 5px black solid;
+    margin: 5vh 3vw;
+    padding: 3vh 3vw;
+}
